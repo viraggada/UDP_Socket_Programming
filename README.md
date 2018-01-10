@@ -1,9 +1,5 @@
 # ECEN 5273: Network Systems: Programming Assignment 1 #
 
-Author: Virag Gada
-
-Date: 09/22/2017
-
 Goal: To develop UDP client and servers where the client issues commands
       and the server sends a suitable response to the client.
 
