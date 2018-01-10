@@ -8,11 +8,13 @@ Goal: To develop UDP client and servers where the client issues commands
       and the server sends a suitable response to the client.
 
 File structure:
+```
       ./README.md
       ./clientFolder/client.c
       ./clientFolder/Makefile
       ./serverFolder/server.c
       ./serverFolder/Makefile
+```
 
 client.c: The program creates a UDP socket and sends commands such as get [file],
           put [file], delete [file], ls and exit to the server.
