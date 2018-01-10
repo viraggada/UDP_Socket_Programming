@@ -10,10 +10,10 @@ Goal: To develop UDP client and servers where the client issues commands
 File structure:
 ```
       ./README.md
-      ./clientFolder/client.c
-      ./clientFolder/Makefile
-      ./serverFolder/server.c
-      ./serverFolder/Makefile
+      ./clientf/client.c
+      ./clientf/Makefile
+      ./serverf/server.c
+      ./serverf/Makefile
 ```
 
 client.c: The program creates a UDP socket and sends commands such as get [file],
