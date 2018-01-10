@@ -8,7 +8,7 @@ Goal: To develop UDP client and servers where the client issues commands
       and the server sends a suitable response to the client.
 
 File structure:
-      ./README.txt
+      ./README.md
       ./clientFolder/client.c
       ./clientFolder/Makefile
       ./serverFolder/server.c
@@ -21,6 +21,7 @@ server.c: The program accepts the command from the client and performs the
           appropriate action.
 
 Commands:
+```
 get [file]: On the client side we send the name of the file we want to get.
             The server checks if it has the file, if not it sends an "error"
             message or it sends the file size that the client should accept.
@@ -39,15 +40,18 @@ delete [file]: We send the command with the file name of the file to delete.
 ls: Client sends this command to check the files available on the server side.
 
 exit: Used when the server is to be closed.
+```
 
 If the client sends any unknown command the server replies the client back with
 the same command stating that it was not recognized.
 
 Execution:
+```
 Server side - Go to the server folder.
               Run make.
               Run the server using ./server [port no]
 
 Client side - Go to the client folder.
               Run make.
-              Run the file using ./client [ip address of serverr] [port no]
+              Run the file using ./client [ip address of server] [port no]
+```
